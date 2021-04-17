@@ -1,0 +1,286 @@
+@media all and (max-width:2800px){
+    .menu-start{
+        display: none;
+    }
+    .menu-close{
+        display:none;
+    } 
+    #humburger{
+        /* display: none; */
+        opacity: 0;
+    }
+}
+@media all and (max-width:1110px){
+    .title-header {
+        padding: 0 1rem;
+        box-sizing: border-box;
+    }
+}
+
+@media all and (max-width:992px){
+    /* .float-start {
+        float: none;
+    } */
+    nav ul{
+        opacity: 0;
+        height: 0;
+    }
+    nav ul li {
+        display: block;
+    }
+    .logo a img {
+        margin-top: 10px;
+    }
+ 
+    #humburger:checked ~ nav ul {
+        z-index: 999;
+        opacity: 1;
+        height: 100%;
+        opacity: 1;
+        /* margin-bottom: 20px; */
+        transform: translateX(0px);
+        margin-top: 50px;
+    }  
+    #humburger:checked ~ .menu-start {
+        display: none;
+        cursor: pointer;
+    
+    }
+    #humburger:checked ~ .menu-close {
+        display: block;
+        cursor: pointer;
+    
+    }
+    .menu-start{
+        display: block;
+        cursor: pointer;
+    }
+    .menu-close{
+        display:none;
+        cursor: pointer;
+    }
+
+    .header-menu {
+        position: relative;
+        width: 100%;
+    }
+    .header-menu label {
+        position: absolute;
+        top: -44px;
+        right: 0;
+    }
+    header {
+        position: static;   
+    }
+    nav ul li a {
+        line-height: 50px;
+    }
+    nav ul li ul {
+        top: -92px;
+        left: 126px;
+        background-color: transparent!important;
+    }
+    nav > ul > li > ul > li > ul {
+        left: 96%;
+        top: -75px;
+    }
+    .banner-title h1 {
+        font-size: 2.5rem;
+        line-height: 69px;
+         margin-bottom: 0px;
+    }
+    .resume-content {
+        width: 100%;
+    }
+
+    .resume .resume-image {
+        width: 100%;
+    }
+    .title-header br:empty {
+        display: none;
+    }
+    .skill-item {
+        width: 48%;
+    }
+    .education-content {
+        width: 100%;
+    }
+    .education-img {
+        width: 100%;
+    }
+}
+
+@media all and (max-width:800px){
+    .portfolio-list-image .image {
+        width: 48%;
+    }
+    .skills-name ul li {
+        display: block;
+        width: 200px;
+        margin: auto;
+    }
+    .skills-name ul li:nth-child(1)::before {
+        left: 50%;
+        top: -9px;
+        transform: translate(-50%,-50%);
+    }
+    .skills-name ul li:nth-child(2)::after {
+        right: 12px;
+    }
+    .skills-name ul li:nth-child(2)::before {
+        left: 12px;
+    }
+    .skills-name ul li:nth-child(3)::before {
+        left: 50%;
+        top: 22px;
+        /* bottom: -9px; */
+        transform: translate(-50%,-50%);
+     
+    }
+    .banner-title h1 {
+        margin-bottom: 12px;
+    }
+    .resume-content table tr {
+        margin: 11px 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .resume-content table tr td {
+        width: 50%;
+    }
+    .title-header {
+        padding: 0 1rem;
+        box-sizing: border-box;
+    }
+    .education-content .education-items .education-item .education-right-item p {
+        text-align: center;
+    }
+    .employment-items {
+        flex-wrap: wrap;
+    }
+    .employment-items .employment-item {
+        width: 100%;
+    }
+}
+@media all and (max-width:640px){
+    .education-left-item {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+    .education-content .education-items .education-item {
+        flex-wrap: wrap;
+    }
+    .education-content .education-items .education-item .education-right-item {
+        width: 100%;
+        margin-top: 20px;
+    }
+    .contact .contant-me span {
+        width: 40px;
+        height: 40px;
+        font-size: 1rem;
+        line-height: 40px;
+    }
+    .contact .contant-me p {
+        font-size: .9rem;
+    }
+    .banner {
+        height: 48vh;
+    }
+
+
+}
+@media all and (max-width:576px){
+    .portfolio-list-image .image {
+        width: 100%;
+    }
+    .title-header h3 {
+        font-size: 1.4rem;
+    }
+    .title-header h2 {
+        font-size: 1.4rem;
+    }
+    .skill-item {
+        width: 100%;
+    }
+    .number-count .number-items .number-item {
+        flex-basis: 50%;
+        flex-grow: 1;
+        margin-bottom: 1.5rem;
+    }
+    .number-count .number-items {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .number-count {
+        padding: 56px 0px;
+    }
+    form .form-left {
+        width: 100%;
+    }
+    form .form-right {
+        width: 100%;
+    }
+    .contact {
+        flex-direction: column;
+    }
+    .contact .contant-me {
+        margin-bottom: 1.4rem;
+    }
+    footer .social-icon ul li a {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        font-size: .7rem;
+    }
+
+}
+@media all and (max-width:414px){
+    nav ul li ul {
+        top: -92px;
+        left: 105px;
+        background-color: transparent!important;
+    }
+    nav > ul > li > ul > li > ul {
+        left: 90%;
+        top: -75px;
+    }
+    .banner-title h1 {
+        font-size: 1.5rem;
+        line-height: 44px;
+    }
+   
+    .number-count .number-items .number-item h2 {
+        font-size: 2rem;
+    }
+    .education-content .education-items .education-item .education-left-item h2 {
+        font-size: .9rem;
+        font-weight: 500;
+    }
+    .education-content .education-items .education-item .education-right-item p {
+        font-size: .8rem;
+        font-weight: 400;
+    }
+    .title-header h3 {
+        font-size: 1.1rem;
+    }
+    .title-header h2 {
+        font-size: 1rem;
+    }
+    .employment-items .employment-item .employemt-content .content-item {
+        font-size: 1rem;
+    }
+    .employment-items .employment-item .employemt-content p {
+        margin-top: .8rem;
+    }
+    .services-main img {
+        width: 100px;
+    }
+    footer p {
+
+        font-size: .9rem;
+    }
+    .banner {
+        height: 39vh;
+    }
+}
