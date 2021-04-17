@@ -108,6 +108,9 @@
     .education-img {
         width: 100%;
     }
+    .education-img img {
+        height: auto;
+    }
 }
 
 @media all and (max-width:800px){
