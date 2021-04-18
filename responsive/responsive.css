@@ -10,6 +10,18 @@
         opacity: 0;
     }
 }
+@media all and (max-width:1130px){
+    .resume-content {
+        width: 100%;
+    }
+
+    .resume .resume-image {
+        width: 100%;
+    }
+    .resume .resume-image img {
+        width: 100%;
+    }
+}
 @media all and (max-width:1110px){
     .title-header {
         padding: 0 1rem;
