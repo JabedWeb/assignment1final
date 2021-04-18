@@ -164,6 +164,7 @@ nav ul li ul li ul li a{
 	height: 90vh;
 	background-position: center;
     position: relative;
+    background-attachment: fixed;
 }
 .banner-title {
 	position: absolute;
@@ -276,7 +277,7 @@ Resume CSS start
 	width: 60%;
 	background-color: var(--bc-white);
 	box-shadow: 3px 4px 30px 0 rgba(98, 120, 223,.2);
-	padding: 74px 40px;
+	padding: 70px 40px;
 	box-sizing: border-box;
 	height: 100%;
 }
